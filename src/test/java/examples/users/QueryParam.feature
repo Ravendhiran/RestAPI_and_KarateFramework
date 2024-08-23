@@ -4,6 +4,7 @@ Feature: To validate the GET method
  Background:
  	Given url 'https://dev254312.service-now.com/api/now/table/'
  	
+ 
  	Scenario: To get the data in JSON format
  	Given path 'incident'
  	And param number = 'INC0009002'

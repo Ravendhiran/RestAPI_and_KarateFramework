@@ -1,9 +1,10 @@
 Feature: To validate the GET method
  To validate the GET end point response
  
+ 
  Background:
  	Given url 'https://simple-books-api.glitch.me'
- 	
+ 	@Smoke @Regression
  	Scenario: To get the data in JSON format and validate responses are macthing
  	Given path '/books/6'
  	And header Accept = 'application/json'
@@ -22,7 +23,7 @@ Feature: To validate the GET method
   "available": true
 }
  	"""
- 	
+ 	@Smoke
  	Scenario: To get the data in JSON format and validate responses are not macthing
  	Given path '/books/6'
  	And header Accept = 'application/json'

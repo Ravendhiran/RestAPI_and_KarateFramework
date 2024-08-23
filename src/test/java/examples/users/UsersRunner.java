@@ -7,7 +7,7 @@ class UsersRunner {
     
     @Test
     public Karate testUsers() {
-        return Karate.run("fuzzyMatcher").relativeTo(getClass());
+        return Karate.run("QueryParam").relativeTo(getClass());
     }
     
     
