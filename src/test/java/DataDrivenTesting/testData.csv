@@ -1,0 +1,4 @@
+url,path,status
+https://simple-books-api.glitch.me,/books/6,200
+https://simple-books-api.glitch.me,/books/1,200
+https://simple-books-api.glitch.me,/books/2,200
